@@ -2,11 +2,11 @@
   "id": "ar.liber.nyx.GnomeTsTemplate",
   "command": "gnome-ts-template",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "48",
+  "runtime-version": "51",
   "sdk": "org.gnome.Sdk",
-  "sdk-extensions": ["org.freedesktop.Sdk.Extension.node24"],
+  "sdk-extensions": ["org.freedesktop.Sdk.Extension.node26"],
   "build-options": {
-    "prepend-path": "/usr/lib/sdk/node24/bin",
+    "prepend-path": "/usr/lib/sdk/node26/bin",
     "prepend-ld-library-path": "/usr/lib/sdk/node24/lib"
   },
   "finish-args": [
