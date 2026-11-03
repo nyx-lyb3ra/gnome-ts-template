@@ -20,7 +20,7 @@
   },
   "js/ts.preferences.importModuleSpecifierEnding": "js",
   "js/ts.tsdk.path": "node_modules/typescript/lib",
-  "mesonbuild.buildFolder": "_build",
   "mesonbuild.configureOnOpen": false,
+  "mesonbuild.buildFolder": "_build",
   "mesonbuild.mesonPath": "${workspaceFolder}/.flatpak/meson.sh",
 }
