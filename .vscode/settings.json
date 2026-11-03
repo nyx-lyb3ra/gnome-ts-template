@@ -3,20 +3,24 @@
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
+    "**/.jj": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     ".flatpak/**": true
   },
   "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/.hg/store/**": true,
+    ".git/objects/**": true,
+    ".git/subtree-cache/**": true,
+    ".hg/store/**": true,
+    "*/.git/objects/**": true,
+    "*/.git/subtree-cache/**": true,
+    "*/.hg/store/**": true,
     ".flatpak/**": true,
     "_build/**": true
   },
+  "js/ts.preferences.importModuleSpecifierEnding": "js",
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
   "mesonbuild.buildFolder": "_build",
   "mesonbuild.configureOnOpen": false,
   "mesonbuild.mesonPath": "${workspaceFolder}/.flatpak/meson.sh",
-  "typescript.preferences.importModuleSpecifierEnding": "js",
-  "typescript.tsdk": "node_modules/typescript/lib"
 }
