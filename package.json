@@ -1,18 +1,21 @@
 {
   "type": "module",
   "devDependencies": {
-    "@girs/adw-1": "^1.8.0-4.0.0-beta.23",
-    "@girs/gio-2.0": "^2.84.0-4.0.0-beta.23",
-    "@girs/glib-2.0": "^2.84.0-4.0.0-beta.23",
-    "@girs/gobject-2.0": "^2.84.0-4.0.0-beta.23",
-    "@girs/gtk-4.0": "^4.18.3-4.0.0-beta.23",
+    "@girs/adw-1": "^5.6.0",
+    "@girs/gio-2.0": "^5.6.0",
+    "@girs/glib-2.0": "^5.6.0",
+    "@girs/gobject-2.0": "^5.6.0",
+    "@girs/gtk-4.0": "^5.6.0",
     "@nyx_lyb3ra/eslint-config-gnome": "^3.0.0",
     "@nyx_lyb3ra/tsconfig-gnome": "^3.0.1",
-    "@types/node": "^22.15.29",
-    "esbuild": "^0.25.5",
-    "eslint": "^9.28.0",
-    "prettier": "^3.5.3",
-    "typescript": "^5.8.3",
-    "typescript-eslint": "^8.33.0"
+    "@types/node": "^26.6.6",
+    "esbuild": "^0.28.2",
+    "eslint": "^10.14.0",
+    "prettier": "^3.9.10",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.72.1"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
   }
 }

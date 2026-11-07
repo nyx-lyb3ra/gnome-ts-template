@@ -1,14 +1,14 @@
 import Adw from "gi://Adw";
 import Gio from "gi://Gio";
+import GLib from "gi://GLib";
 import GObject from "gi://GObject";
 
-import {gettext as _} from "gettext";
+import { gettext as _ } from "gettext";
 
 import Template from "./main-window.ui";
-import GLib from "gi://GLib";
 
 // FIXME: Choose a namespace that fits your app
-const options = {GTypeName: "ExampleMainWindow", Template};
+const options = { GTypeName: "ExampleMainWindow", Template };
 
 class MainWindow extends Adw.ApplicationWindow {
   private readonly _settings = Gio.Settings.new(Config.APP_ID);
@@ -26,7 +26,7 @@ class MainWindow extends Adw.ApplicationWindow {
     }
 
     this.add_action_entries([
-      {activate: this.showAboutDialog.bind(this), name: "show-about-dialog"},
+      { activate: this.showAboutDialog.bind(this), name: "show-about-dialog" },
     ]);
   }
 
